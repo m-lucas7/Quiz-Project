@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.quiz h1, .quiz h2 {
+  margin-bottom: 20px;
+}
+
+.quiz button {
+  margin-top: 20px;
+}
+
+.rep {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.rep.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.accepter, .next {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accepter:hover, .next:hover {
+  background-color: #0056b3;
+}
+
+.restart {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.restart:hover {
+  background-color: #495057;
+}
